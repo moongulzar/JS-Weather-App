@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Weather App</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div id="img-container">
+
+        <div id="container">
+            <section id="form-section">
+                <form id="form">
+                    <input type="text" id="city-input" placeholder="Enter the city!">
+                    <input type="submit" id="btn">
+                    <div id="error" class="text-red"></div>
+                </form>
+            </section>
+            <section id="details">
+                <div id="data-detail">
+                    City: <span id="city"></span>
+                </div>
+                <div id="data-detail">
+                    Temperature: <span id="temp"></span>
+                </div>
+                <div id="data-detail">
+                    Feels Like: <span id="feels-like"></span>
+                </div>
+                <div id="data-detail">
+                    Weather: <span id="weather"></span>
+                </div>
+                <div id="data-detail">
+                    Description: <span id="desc"></span>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>

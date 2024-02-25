@@ -1,0 +1,66 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: dodgerblue;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background-image: url(C:\Users\LENOVO\Documents\Web Development\23Aug23_JS Projects\images\rays-clouds.jpg);
+}
+
+#container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    height: 300px;
+    width: 400px;
+}
+
+#img-container {
+    background-image: url("rays-clouds.jpg");
+    height: 300px;
+    width: 400px;
+}
+
+#form-section {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.text-red {
+    color: red;
+}
+
+.border-red {
+    border: 1px solid red;
+    border-radius: 2px;
+}
+
+#details {
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+
+#data-detail {
+    margin-bottom: 20px;
+}
+
+#city-input {
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#btn {
+    height: 30px;
+    width: 70px;
+    background-color: black;
+    color: aliceblue;
+}
